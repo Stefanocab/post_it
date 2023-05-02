@@ -1,0 +1,12 @@
+<%- include('./partiejs/header.ejs'); %>
+<div>
+    <form method="post" action="/scrivi" >
+      <div class="mb-3" style="padding-top:10px">
+        <label for="Comment" class="form-label">Create a sticky note</label>
+        <input type="text" class="form-control" name="Comment">
+      </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>
+
+<%- include('./partiejs/footer.ejs'); %>
